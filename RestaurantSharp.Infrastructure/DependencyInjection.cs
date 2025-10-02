@@ -8,7 +8,7 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructureDependencies(this IServiceCollection services)
     {
         services.AddDbContext<RestaurantContext>(options =>
-        options.UseSqlite("Data source = test.db"));
+        options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=RestaurantDb;Trusted_Connection=True;"));
         return services;
     }
 }

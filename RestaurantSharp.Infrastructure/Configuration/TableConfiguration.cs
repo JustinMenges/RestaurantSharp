@@ -4,11 +4,10 @@ using RestaurantSharp.Domain.Models;
 
 namespace RestaurantSharp.Infrastructure.Configuration;
 
-public class OrderConfiguration : IEntityTypeConfiguration<Order>
+public class TableConfiguration : IEntityTypeConfiguration<Table>
 {
-    public void Configure(EntityTypeBuilder<Order> builder)
+    public void Configure(EntityTypeBuilder<Table> builder)
     {
         builder.HasKey(x => x.Id);
-        builder.HasOne(x => x.Table);
     }
 }

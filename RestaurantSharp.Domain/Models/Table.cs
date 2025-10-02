@@ -1,6 +1,8 @@
-﻿namespace RestaurantSharp.Domain.Models;
+﻿using RestaurantSharp.Domain.Common;
 
-public class Table
+namespace RestaurantSharp.Domain.Models;
+
+public class Table : BaseEntity
 {
     public int Seats { get; set; }
 }
