@@ -2,4 +2,5 @@
 
 public class Table
 {
+    public int Seats { get; set; }
 }
