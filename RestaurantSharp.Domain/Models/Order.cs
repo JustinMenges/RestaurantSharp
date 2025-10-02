@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RestaurantSharp.Domain.Common;
 
 namespace RestaurantSharp.Domain.Models;
 
-public class Order
+public class Order : BaseEntity
 {
+    public DateTime CreationDate { get; set; }
+    public required List<MenuItem> MenuItems { get; set; }
+    public Guid TableId { get; set; }
+    public required Table Table { get; set; }
 }

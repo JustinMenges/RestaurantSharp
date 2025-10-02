@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RestaurantSharp.Domain.Common;
 
-namespace RestaurantSharp.Domain.Models
+namespace RestaurantSharp.Domain.Models;
+
+public class Booking : BaseEntity
 {
-    public class Booking
-    {
-    }
+    public required string BookingName { get; set; }
+    public required DateTime BookingDate { get; set; }
+    public required uint NumberOfGuests { get; set; }
+    public required Guid TableId { get; set; }
+    public required Table Table { get; set; }
 }
