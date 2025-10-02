@@ -1,3 +1,4 @@
+using RestaurantSharp.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
