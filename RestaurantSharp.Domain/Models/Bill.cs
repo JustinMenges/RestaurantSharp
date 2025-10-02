@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RestaurantSharp.Domain.Common;
 
-namespace RestaurantSharp.Domain.Models
+namespace RestaurantSharp.Domain.Models;
+
+public class Bill : BaseEntity
 {
-    public class Bill
-    {
-    }
+    public required Order Order { get; set; }
+    public Guid OrderId { get; set; }
+    public decimal TotalPrice => Order.MenuItems.Sum(item => item.Price);
+    public DateTime CreationDate { get; set; }
 }

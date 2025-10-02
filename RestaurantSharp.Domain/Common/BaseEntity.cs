@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestaurantSharp.Domain.Models
+namespace RestaurantSharp.Domain.Common;
+
+public abstract class BaseEntity
 {
-    public class Guest
-    {
-    }
+    public Guid Id { get; set; }
 }

@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RestaurantSharp.Domain.Common;
 
 namespace RestaurantSharp.Domain.Models;
 
-public class MenuItem
+public class MenuItem : BaseEntity
 {
+    public decimal Price { get; set; }
+    public required string Name { get; set; }
+    public required string Description { get; set; }
 }
