@@ -21,4 +21,8 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantSharp.Domain\RestaurantSharp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

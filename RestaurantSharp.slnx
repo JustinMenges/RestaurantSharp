@@ -2,6 +2,8 @@
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
   </Folder>
+  <Project Path="RestaurantSharp.Application/RestaurantSharp.Application.csproj" Id="bbdb8c67-36ec-4810-a332-55b54840c29a" />
   <Project Path="RestaurantSharp.Domain/RestaurantSharp.Domain.csproj" />
-  <Project Path="RestaurantSharp/RestaurantSharp.Presentation.csproj" />
+  <Project Path="RestaurantSharp.Infrastructure/RestaurantSharp.Infrastructure.csproj" Id="f34a2157-76e9-499d-85e0-b104e95e7742" />
+  <Project Path="RestaurantSharp.Presentation/RestaurantSharp.Presentation.csproj" />
 </Solution>
