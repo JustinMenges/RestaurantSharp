@@ -11,6 +11,8 @@ public class MenuItemConfiguration : IEntityTypeConfiguration<MenuItem>
         builder.Property(x => x.Name)
             .IsRequired()
             .HasMaxLength(50);
+        builder.Property(x => x.Price)
+        .HasPrecision(18, 2);
         builder.HasKey(x => x.Id);
     }
 }
