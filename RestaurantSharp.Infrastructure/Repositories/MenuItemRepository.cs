@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RestaurantSharp.Application.Common.Interfaces;
 using RestaurantSharp.Domain.Models;
 using System.Linq.Expressions;
 
 namespace RestaurantSharp.Infrastructure.Repositories;
 
-public class MenuItemRepository(RestaurantContext restaurantContext)
+public class MenuItemRepository(RestaurantContext restaurantContext) : IMenuItemRepository
 {
     public async Task AddMenuItemAsync(MenuItem menuItem)
     {

@@ -22,8 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\Interfaces\" />
     <Folder Include="CQRS\MenuItem\Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantSharp.Domain\RestaurantSharp.Domain.csproj" />
   </ItemGroup>
 
 </Project>
