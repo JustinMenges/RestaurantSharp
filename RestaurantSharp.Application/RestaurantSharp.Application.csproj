@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\MenuItems\Commands\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\RestaurantSharp.Domain\RestaurantSharp.Domain.csproj" />
   </ItemGroup>
 
