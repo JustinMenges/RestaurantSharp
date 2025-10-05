@@ -1,4 +1,4 @@
-﻿namespace RestaurantSharp.Application.CQRS.MenuItems.Queries.GetAvailable;
+﻿namespace RestaurantSharp.Application.CQRS.MenuItem.Queries.GetAvailable;
 
 public record GetAvailableMenuItemsDto
 (
