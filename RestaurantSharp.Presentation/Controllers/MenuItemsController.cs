@@ -6,7 +6,7 @@ namespace RestaurantSharp.Presentation.Controllers;
 
 public class MenuItemsController(ISender sender) : ControllerBase
 {
-    [HttpGet("pipi")]
+    [HttpGet("GetAvailable")]
     public async Task<IActionResult> GetAvailable(CancellationToken cancellationToken)
     {
         var request = new GetAvailableMenuItems();
