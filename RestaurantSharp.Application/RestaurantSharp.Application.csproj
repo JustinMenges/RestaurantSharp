@@ -21,4 +21,10 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="CQRS\MenuItems\Commands\" />
+    <Folder Include="CQRS\MenuItems\Queries\GetAll\" />
+  </ItemGroup>
+
 </Project>
