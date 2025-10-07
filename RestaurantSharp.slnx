@@ -6,4 +6,5 @@
   <Project Path="RestaurantSharp.Domain/RestaurantSharp.Domain.csproj" />
   <Project Path="RestaurantSharp.Infrastructure/RestaurantSharp.Infrastructure.csproj" Id="f34a2157-76e9-499d-85e0-b104e95e7742" />
   <Project Path="RestaurantSharp.Presentation/RestaurantSharp.Presentation.csproj" />
+  <Project Path="RestaurantSharp.UnitTest/RestaurantSharp.UnitTest.csproj" Id="411d248b-90c9-4e9f-9d1f-3af32e3b39c2" />
 </Solution>
